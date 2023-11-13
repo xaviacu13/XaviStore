@@ -16,17 +16,22 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Granos Luna App</h1>
+      <h2>Bien venidos a esta pagina</h2>
+      <h4>Todo lo que buscás, lo tenemos acá!..</h4>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        Inicia sesión {count}
+        </button>
+        <button onClick={() => setCount((count) => count + 1)}>
+        Crear una cuenta
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Integrantes <code>Diogo Xavier, Fatima y Naira</code> 
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Colegio Hernando Siles VVG-Muyupampa
       </p>
     </>
   )
