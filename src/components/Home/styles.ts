@@ -11,11 +11,15 @@ const useStyles = makeStyles(() => ({
     padding: 5,
   },
   container: {
-    gap: 10,
+    position: "relative",
+    display: "inline-block",
+    textAlign: "center",
   },
   title: {
-    backgroundColor: rgba(0,0,0,0.8),
-    marginBottom: -20,
+    color: "white",
+    position: "absolute",
+    top: "85%",
+    left: "70%",
   },
 }))
 

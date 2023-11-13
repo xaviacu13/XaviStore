@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Typography } from "@mui/material";
+// import { Typography } from "@mui/material";
 
 import useStyles from "./styles";
 
@@ -17,10 +17,9 @@ const Home: FC<MenuProps> = ({ img, title }) => {
         src={img}
         alt="Granos Luna"
         width="100%"
+        height={700}
       ></img>
-      <div className={classes.title}>
-      <Typography variant="h1">{title}</Typography>
-      </div>
+      <h1 className={classes.title}>{title}</h1>
     </div>
   );
 };
