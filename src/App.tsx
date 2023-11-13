@@ -23,12 +23,12 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
         Inicia sesión {count}
         </button>
-        <button onClick={() => setCount((count) => count + 1)}>
-        Crear una cuenta
-        </button>
-        <p>
-          Integrantes <code>Diogo Xavier, Fatima y Naira</code> 
-        </p>
+        <h3>
+          Integrantes: <code>Diogo, Fatima y Naira</code> 
+        </h3>
+        <h3>
+          Tutor: <code>Lic Rilma Doly Gutierrez Valda</code> 
+        </h3>
       </div>
       <p className="read-the-docs">
         Colegio Hernando Siles VVG-Muyupampa
