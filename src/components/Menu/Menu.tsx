@@ -1,8 +1,8 @@
 import { FC } from "react";
 import { Typography, Avatar, Button, Divider } from "@mui/material";
-import Select, { selectClasses } from '@mui/joy/Select';
-import Option from '@mui/joy/Option';
-import KeyboardArrowDown from '@mui/icons-material/KeyboardArrowDown';
+// import Select, { selectClasses } from '@mui/joy/Select';
+// import Option from '@mui/joy/Option';
+// import KeyboardArrowDown from '@mui/icons-material/KeyboardArrowDown';
 
 import useStyles from "./styles";
 
@@ -32,7 +32,7 @@ const Menu: FC<MenuProps> = ({ logo, title, subTitle, url }) => {
         </div>
         <div className={classes.buttonContainer}>
           <div>
-            <Select
+            {/* <Select
               placeholder="Categorias"
               indicator={<KeyboardArrowDown />}
               sx={{
@@ -49,7 +49,7 @@ const Menu: FC<MenuProps> = ({ logo, title, subTitle, url }) => {
               <Option value="cat">Medicamentos</Option>
               <Option value="fish">Herramientas</Option>
               <Option value="bird">Otros</Option>
-            </Select>
+            </Select> */}
           </div>
           <div>
             <Button>Productos</Button>
