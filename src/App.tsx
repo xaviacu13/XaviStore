@@ -8,13 +8,13 @@ function App() {
   return (
     <>
     <Menu 
-      logo="https://elcomercio.pe/resizer/gj5JbwxkmqRAa4HSpfOHEIUBf7k=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/6FUBT6XQXNHHNFOMCHIT7I34NA.jpg"
+      logo="public/images/logo/granosLuna_logo.avif"
        title="Granos Luna"
        subTitle="Todo lo que buscás, lo tenemos acá!..."
        url="https://www.superbid.com.ar/"
     />
     <Home 
-      img="https://img.freepik.com/foto-gratis/campos-trigo-dorados-brillan-al-atardecer-generados-ia_188544-44464.jpg?w=2000&t=st=1699898044~exp=1699898644~hmac=8b363ca658e6eb592bf4b3341218a0baa736585fd15799a5dc50f59e68ca4853"
+      img="public/images/portada/granosluna_portada4.jpeg"
       title="Granos Luna"
     />
     <Products title="Alimentos vacuno" />
